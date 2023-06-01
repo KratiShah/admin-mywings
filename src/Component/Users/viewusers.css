@@ -1,5 +1,55 @@
-.searchUser{
-    width: auto;
+#heading{
+    background: linear-gradient(45deg, #833AB4, #C13584);
+    color: white;
+}
+#trhover:hover{
+    color: #C13584;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }  
+
+  tr{
+    border-bottom: 2px solid  #833AB4;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:hover {
+    background-color: linear-gradient(45deg, #833AB4, #C13584);
+    color:white; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+  #buttondesign{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    display: inline-block;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: #fff;
+    line-height: 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: rgb(131,58,180) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+    :hover{
+        box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        transform: scale(1.01);
+    }
     
 }
 @media screen and (max-width:700px){

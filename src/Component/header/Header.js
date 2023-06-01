@@ -1,9 +1,15 @@
 import "./header.css";
-
-export function Header(){
+import { AddPostModal } from "./addPost";
+export function Header() {
     return <>
-        <div className="header">
-
+        <div className="container-fluid" id="header">
+            <div className="row">
+            <a className="nav-link active" data-bs-toggle="modal"
+                data-bs-target="#addPostModal" aria-current="page" >
+                <i className="bi bi-plus-square  AddPost"></i>
+            </a>
+            </div>
         </div>
+        <AddPostModal />
     </>
 }

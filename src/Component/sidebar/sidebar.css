@@ -1,7 +1,7 @@
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 250px;
     background-color: whitesmoke;
     position: fixed;
     height: 100%;
@@ -16,12 +16,12 @@
   }
    
   .sidebar a.active {
-    background-color: #4abdac;
+    background: linear-gradient(45deg, #833AB4, #C13584);
     color: white;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #f7b733;
+    background-color: #BEBEBE;
     color: white;
   }
   .b{
@@ -29,7 +29,7 @@
     height: 30px;
     width: 30px;
     display: none;
-    background-color: #4abdac  ;
+    background-color: linear-gradient(45deg, #833AB4, #C13584);
   }  
   @media screen and (max-width: 700px) {
     .sidebar {
@@ -54,4 +54,10 @@
 
   .linkBox{
     border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .signOut{
+    background: linear-gradient(45deg, #833AB4, #C13584);
   }

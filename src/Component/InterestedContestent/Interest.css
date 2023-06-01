@@ -1,25 +1,6 @@
-#header{
-    width: 100%;
-    height: 65px;
-    background-color:  linear-gradient(45deg, #833AB4, #C13584); 
-}
-
-.AddPost{
-    font-size: 20px;
-    color: black;
-    font-size: 25px;
-    margin-left: 90%;
-    margin-top: 15px;
-  }
-  
-  .AddPost:hover{
-    color: black;
-    /* background: linear-gradient(to right, #f7b733, #fc4a1a);
-    -webkit-text-fill-color: transparent; */
-    background-clip: text;
-  }
-
-  #submit{
+#btndesign{
+    margin-top: 8px;
+    margin-bottom: 5px;
     display: inline-block;
     outline: 0;
     border:0;
@@ -28,11 +9,10 @@
     position: relative;
     color: #000;
     background: #fff;
-    line-height: 15px;
+    line-height: 30px;
     border-radius: 40px;
-    padding: 20px;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
     box-shadow: rgb(131,58,180) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
     transition: all 0.2s;
     :hover{
@@ -40,5 +20,4 @@
         transform: scale(1.01);
     }
     
-
 }

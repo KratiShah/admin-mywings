@@ -1,0 +1,15 @@
+@media screen and (max-width:1000px){
+    .tableDiv{
+        overflow: scroll;
+        height: 300px;
+        width: auto;
+        /* overflow: hidden; */
+    }
+}
+.unBanButton:hover{
+    background-color: #4abdac;
+    font-weight: bold;
+    border-color: #4abdac;
+}
+
+
